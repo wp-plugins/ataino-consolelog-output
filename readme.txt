@@ -67,5 +67,6 @@ https://twitter.com/kyanetamaru
 
 == Changelog ==
 **1.01**
+
 add more Argument and function table()
 add json() is test now.

@@ -2,8 +2,8 @@
 Contributors: kanetamru@ishii
 Tags: debug,console,console.log,consolelog,javascript
 Requires at least: 4.1
-Tested up to: 1.0
-Stable tag: 1.0
+Tested up to: 1.01
+Stable tag: 1.01
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,38 +14,40 @@ Output variable in your Web browser console.
 This is Development support tool.
 it's easy to use.
 
-Place
+**Place**
 `<?php
 	$myout = new ataino_console();
-	$myout->log( $variable );
+	$myout->log( $variable, $variable, more variable );
 ?>`
-in your templates.
-$variable is text,Array,Object.
+**in your templates.**
+**$variable is text,Array,Object.**
 
-example
+*example*
 output the Character.
 `<?php
 	$myout = new ataino_console();
 	$myout->log( "Hello World." );
 ?>`
-
-output the Array.
-`<?php
-	$myout = new ataino_console();
-	$myout->log( get_users( $args ) );
-?>`
-
-output the Object.
+output the Array or Object.
 `<?php
 	$myout = new ataino_console();
 	$myout->log( get_queried_object( $args ) );
 ?>`
+output the Array or Object in table.
+`<?php
+	$myout = new ataino_console();
+	$myout->table( get_queried_object( $args ) );
+?>`
 
-check browsers.
-Chrome 41.0+
-FireFox(Firebug) 36.0+
-IE 8.0+
-Safari 5.0+
+**Apply css styling.**
+Result is different by the browser.
+[check example.](http://jsfiddle.net/kanetamaru/qub2uvok/8/ "Title")
+
+*check browsers.*
+Chrome 41.0+,
+FireFox(Firebug) 36.0+,
+IE 8.0+,
+Safari 5.0+,
 Opera 28.0+
 
 == Installation ==
@@ -62,3 +64,6 @@ Opera 28.0+
 https://twitter.com/kyanetamaru
 
 == Changelog ==
+**1.01**
+add more Argument and function table()
+add json() is test now.

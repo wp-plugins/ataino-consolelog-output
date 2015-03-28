@@ -23,6 +23,7 @@ it's easy to use.
 **$variable is text,Array,Object.**
 
 *example*
+
 output the Character.
 `<?php
 	$myout = new ataino_console();
@@ -41,12 +42,13 @@ output the Array or Object in table.
 
 **Apply css styling.**
 Result is different by the browser.
-[check example.](http://jsfiddle.net/kanetamaru/qub2uvok/8/ "Title")
+[check example.](http://jsfiddle.net/kanetamaru/qub2uvok/9/ "Title")
 
 *check browsers.*
+
 Chrome 41.0+,
 FireFox(Firebug) 36.0+,
-IE 8.0+,
+IE 8.0+(non table),
 Safari 5.0+,
 Opera 28.0+
 

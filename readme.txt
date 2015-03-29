@@ -39,6 +39,11 @@ output the Array or Object in table.
 	$myout = new ataino_console();
 	$myout->table( get_queried_object( $args ) );
 ?>`
+output the Array or Object by json.
+`<?php
+	$myout = new ataino_console();
+	$myout->json( get_queried_object( $args ) );
+?>`
 
 **Apply css styling.**
 Result is different by the browser.

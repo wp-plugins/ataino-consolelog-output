@@ -75,3 +75,7 @@ https://twitter.com/kyanetamaru
 
 add more Argument and function table()
 add json() is test now.
+
+**1.02**
+typo old code clear
+ add_action()

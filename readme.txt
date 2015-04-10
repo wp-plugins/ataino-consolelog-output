@@ -2,8 +2,8 @@
 Contributors: kanetamru@ishii
 Tags: debug,console,console.log,consolelog,javascript
 Requires at least: 4.1
-Tested up to: 1.01
-Stable tag: 1.01
+Tested up to: 1.02
+Stable tag: 1.02
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

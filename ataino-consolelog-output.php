@@ -3,7 +3,7 @@
 Plugin Name: Ataino Consolelog Output
 Plugin URI: https://twitter.com/kyanetamaru
 Description: Development support tool. (theme and plugin) Output valiable for your web browsers console.
-Version: 1.02
+Version: 1.03
 Author: kanetamaru@ishii
 Author URI: https://twitter.com/kyanetamaru
 License: GPLv2
@@ -83,7 +83,7 @@ class ataino_console {
 		    		 * about var_dump() Output Buffering
 		    		 */
 						//ob_start();	var_dump( $this->plugin_value[$i] ); $this->plugin_value[$i] = ob_get_contents(); ob_end_clean();
-		  
+
 		    	}
 		    		$this->plugin_value[$i] = json_encode($this->plugin_value[$i]);
 				        if ( $i === 0 ) {

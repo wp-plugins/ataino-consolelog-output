@@ -44,6 +44,14 @@ output the Array or Object by json.
 	$myout = new ataino_console();
 	$myout->json( get_queried_object( $args ) );
 ?>`
+output the how long time an operation takes.
+time and timeEnd methods.
+`<?php
+	$myout = new ataino_console();
+	$myout->time();
+		/* processing */
+	$myout->timeEnd();
+?>`
 
 **Apply css styling.**
 Result is different by the browser.
@@ -77,5 +85,9 @@ add more Argument and function table()
 add json() is test now.
 
 **1.02**
-typo old code clear
- add_action()
+
+typo old code clear add_action()
+
+**1.03**
+
+add time and timeEnd Methods.
